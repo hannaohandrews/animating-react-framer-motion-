@@ -19,19 +19,19 @@ function App() {
         <CardGrid>
           <Card style={{ background: "var(--purp)" }}>
             <h3>Some card</h3>
-            <img src={purp} />
+            <img src={purp} alt='' />
           </Card>
           <Card style={{ background: "var(--blue)" }}>
             <h3>Some card</h3>
-            <img src={blue} />
+            <img src={blue} alt=''/>
           </Card>
           <Card style={{ background: "var(--black)" }}>
             <h3>Some card</h3>
-            <img src={black} />
+            <img src={black} alt=''/>
           </Card>
           <Card style={{ background: "var(--green)" }}>
             <h3>Some card</h3>
-            <img src={green} />
+            <img src={green} alt=''/>
           </Card>
         </CardGrid>
       </Container>
